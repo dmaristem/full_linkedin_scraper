@@ -16,7 +16,7 @@ def read_excel() -> List:
     """
     Read in the excel data as a list of LinkedIn URLs.
     """
-    df = pd.read_excel(r'/Users/mduong/PycharmProjects/linkedin_scraper/ventures_linkedin_urls.xlsx')
+    df = pd.read_excel(r'path_to_file.xlsx')
     lst_links = df['linked_url']
     return lst_links
 
