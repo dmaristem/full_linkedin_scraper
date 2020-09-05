@@ -21,10 +21,8 @@ from bs4 import BeautifulSoup, Tag, NavigableString
 #     """
 #     Read in the excel data as a list of LinkedIn URLs.
 #     """
-#     # data = pd.read_excel(r'C:\Users\Tony Stark\PycharmProjects\linkedin_scraper\2017_LinkedIn_Companies.xlsx')
-#     data = pd.read_excel(r'/Users/mduong/PycharmProjects/linkedin_scraper/2017_Extra_LinkedIn_Companies.xlsx')
+#     # data = pd.read_excel(r'path_to_file.xlsx')
 #     df = pd.DataFrame(data, columns=['LinkedIn Link']) # 2018 column name
-#
 #     # Get list of links
 #     lst_links = [link[0] for link in df.itertuples(
 #         index=False)]
